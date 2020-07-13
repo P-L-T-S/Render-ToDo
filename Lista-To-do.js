@@ -1,4 +1,3 @@
-/*
 // seleciona a tag body
 const tagBody = document.querySelector("body");
 
@@ -82,4 +81,3 @@ function delTodo(pos){
 function saveStorage(){
     localStorage.setItem("list_todos", JSON.stringify(todos));
 }
-*/
