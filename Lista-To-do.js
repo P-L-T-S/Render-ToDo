@@ -37,9 +37,9 @@ btn.onclick = () => {
         Li[i].textContent = text;
     }
 }
-const listElement = document.querySelector("#app ul");
-const inputElement = document.querySelector("#app input");
-const btnElement = document.querySelector("#app button");
+const listElement = document.querySelector("ul");
+const inputElement = document.querySelector("input");
+const btnElement = document.querySelector("button");
 
 let todos = JSON.parse(localStorage.getItem("list_todos")) || [];
 
